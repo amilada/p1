@@ -1,0 +1,35 @@
+Create Table contacts 
+
+create table
+CREATE TABLE IF NOT EXISTS *comment*
+"name text NOT NULL,
+"text" text NOT NULL,
+'email' text NOT NULL
+) ENGINE-MyISAM DEFAULT CHARSET=ut f8mb4 COLLATE=ut f8mb4_0900_ai_ci:
+COMMIT:
+
+
+insert db
+
+INSERT INTO comment ('name text,'email') VALUES ('milad', 'a@gmail.com', 'hello world')
+
+delete db 
+
+DELETE FROM comment WHERE email ="hello world ";
+
+
+
+create table users 
+CREATE TABLE IF NOT EXISTS *users*
+"name text NOT NULL,
+"family" text NOT NULL,
+'email' text NOT NULL
+) ENGINE-MyISAM DEFAULT CHARSET=ut f8mb4 COLLATE=ut f8mb4_0900_ai_ci:
+COMMIT:
+
+
+Insert db 
+INSERT INTO comment ('name', family,'email') VALUES ('milad', 'fasahat', 'a@gmail.com')
+
+
+DELETE FROM comment WHERE email ="a@gmail.com";
