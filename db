@@ -29,7 +29,7 @@ COMMIT:
 
 
 Insert db 
-INSERT INTO comment ('name', family,'email') VALUES ('milad', 'fasahat', 'a@gmail.com')
+INSERT INTO users ('name', family,'email') VALUES ('milad', 'fasahat', 'a@gmail.com')
 
 
-DELETE FROM comment WHERE email ="a@gmail.com";
+DELETE FROM users WHERE email ="a@gmail.com";
