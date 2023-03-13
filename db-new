@@ -1,0 +1,11 @@
+CREATE TABLE `comment` (
+  `name` text NOT NULL,
+  `email` int(11) NOT NULL,
+  `text` int(11) NOT NULL,
+  `visible` enum('yes','no','','') NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+COMMIT;
+
+
+soft delete
+UPDATE `comment` SET `visible`='no' WHERE email=""
